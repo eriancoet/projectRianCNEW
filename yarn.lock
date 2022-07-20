@@ -3600,7 +3600,7 @@
   dependencies:
     "map-cache" "^0.2.2"
 
-"framer-motion@^2.9.4":
+"framer-motion@^2.9.5":
   "integrity" "sha512-epSX4Co1YbDv0mjfHouuY0q361TpHE7WQzCp/xMTilxy4kXd+Z23uJzPVorfzbm1a/9q1Yu8T5bndaw65NI4Tg=="
   "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-2.9.5.tgz"
   "version" "2.9.5"
