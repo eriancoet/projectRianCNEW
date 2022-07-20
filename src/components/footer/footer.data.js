@@ -1,6 +1,6 @@
 export default [
   {
-    header: 'About',
+    header: 'Resume',
     items: [
       {
         path: '#faq',

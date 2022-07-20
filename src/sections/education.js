@@ -7,7 +7,7 @@ import PriceCard from '../components/price-card';
 const pricingMonthlyData = [
   {
     name: 'Education',
-    description: 'Hyperiondev - Fullstack Web Development',
+    description: 'Hyperiondev - Fullstack Web Development Bootcamp',
     buttonText: 'Connect with LinkedIn',
     points: [
       {
@@ -31,18 +31,18 @@ const pricingMonthlyData = [
   {
     header: 'Working Experience',
     name: 'Ibis New Media',
-    description: 'Freelancing as Web Design/Video Editor',
+    description: 'Web Design/Video Editor',
    
     buttonText: 'Connect with LinkedIn',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Date 2014-April-5',
+        text: '2014 - ongoing',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Freelancing as Video Editor, Web Designer and Desk Top Publisher/Graphic designer.',
+        text: 'Story boarding, Shooting, Editing videos, Designing Websites with wordpress, Dreamweaver and Joomla, and Graphic Designing.',
         isAvailable: true,
       },
       {
@@ -62,36 +62,37 @@ const pricingYearlyData = [
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Richteck, Date 1997-01-01 - 1998-12-10, National Senior Certificate',
+        text: 'Google, 2021 - 2021, Certification for Digital Marketing',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Hirt & Carter, Date 1999-01-01 - 2000-01-01, Dtp and Graphic Design',
+        text: 'Multi-Media Tech, 2000, Multi-Media Studies',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Multi-Media Tech, Date 2000-01-01, Multi-Media Studies',
+        text: 'Hirt & Carter, 1999, Dtp and Graphic Design',
         isAvailable: true,
       },
+     
   
     ],
   },
   {
     header: 'Work History',
     name: 'Manager',
-    description: 'Working as a Restaurant Manager',
+    description: 'the African Elephant Restaurant',
     buttonText: 'Connect with LinkedIn',
     points: [
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Date 2016-05-01 till now',
+        text: '2016 till now',
         isAvailable: true,
       },
       {
         icon: <IoIosCheckmarkCircle />,
-        text: 'Managing a Restaurant in Sabie, Mpumalanga',
+        text: 'Managing a Restaurant in South Africa',
         isAvailable: true,
       },
       {
@@ -112,7 +113,7 @@ const Pricing = () => {
         <BlockTitle
           sx={styles.pricing.blockTitle}
           tagline="Rian C."
-          heading="About"
+          heading="Resume"
         />
         <Box sx={styles.pricing.btnWrap}>
           <Box as="ul" sx={styles.pricing.btnUl}>
@@ -136,7 +137,7 @@ const Pricing = () => {
                 setPlan(true);
               }}
             >
-              Other Courses
+              Other 
             </Box>
           </Box>
         </Box>

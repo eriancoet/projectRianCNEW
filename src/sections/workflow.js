@@ -33,8 +33,8 @@ const workflowData = [
   {
     title: 'My Personal Website',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
-      link: (<a target="_blank" href='https://eriancoet.github.io/RianCoetzee_Portfolio/' rel="noopener noreferrer">
+      'Portfolio and Personal Site of Rian C. - Full-Stack Developer',
+      link: (<a target="_blank" href='https://eriancoet.github.io/RianC/' rel="noopener noreferrer">
       Follow link to my personal website.
            </a>),
   },

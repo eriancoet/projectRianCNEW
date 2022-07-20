@@ -1,35 +1,21 @@
 import { Box, Image, Heading, Text } from 'theme-ui';
 import React from 'react';
-import { Link } from 'components/link';
-import VideoBtn from 'components/video-btn';
-import { FaStar } from 'react-icons/fa';
-import eyeIcon from 'assets/eye-2.svg';
+
 
 const FavoriteCard = (props) => {
   return (
     <Box sx={styles.fevCard}>
       <Box sx={styles.fevCard.image}>
         <Image src={props.image} alt="content image" />
-        <VideoBtn path={props.videoLink} />
       </Box>
       <Box sx={styles.fevCard.content}>
         <Box
           sx={styles.fevCard.stars}
           className={`starCount-${props.starCount}`}
         >
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <Text as="span">{props.reviewCount}</Text>
         </Box>
-        <Heading as="h3">
-          <Link path="#projects" label={props.title} />
-        </Heading>
-        <Text as="p">
-          <Image src={eyeIcon} alt="" /> {props.watchCount}
-        </Text>
+        <Heading as="h3">{props.title}</Heading>
+
       </Box>
     </Box>
   );

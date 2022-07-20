@@ -27,7 +27,7 @@ const CtaTwo = () => {
               />
               <Text as="p" sx={styles.ctaTwo.text}>
                 {
-                   'I am Rian C. \n A Fullstack Web Developer, I am \n  passionate about coding, hacking and programming. Languages includes \n HTML, CSS, Javascript, ReactJS, Node, express, mongoDB.'
+                   'Rian C. \n a Fullstack Web Developer,  \n  passionate about coding, hacking and programming. Languages includes \n HTML, CSS, Javascript, ReactJS, Node, express, mongoDB.'
                 }
               </Text>
               <Link

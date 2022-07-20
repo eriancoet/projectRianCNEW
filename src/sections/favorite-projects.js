@@ -2,32 +2,59 @@ import { Box, Grid, Container } from 'theme-ui';
 import React from 'react';
 import BlockTitle from 'components/block-title';
 import FavoriteCard from 'components/favorite-card';
+
 import fevCardImageOne from 'assets/fev-course-1-1.png';
 import fevCardImageTwo from 'assets/fev-course-1-2.png';
 import fevCardImageThree from 'assets/fev-course-1-3.png';
+import fevCardImageFour from 'assets/fev-course-1-4.png';
+import fevCardImageFive from 'assets/fev-course-1-5.png';
+import fevCardImageSix from 'assets/fev-course-1-6.png';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-const favoriteCourseData = [
+const favoriteCourseData1 = [
   {
-    title: 'React App, RestAPI, JSX, JavaScript',
+    title:  ( <a target="_blank" href='https://protected-badlands-68828.herokuapp.com/' rel="noopener noreferrer">
+    ReactJS - Memory Game
+         </a> ),
     image: fevCardImageOne,
-    videoLink: 'gVeMD7Y11RE',
-    starCount: 5,
+   
   },
   {
-    title: 'Itunes Search API, UI/UX design, React create App',
+    title: ( <a target="_blank" href='https://fast-earth-93423.herokuapp.com/' rel="noopener noreferrer">
+    Itunes Search App
+         </a> ),
     image: fevCardImageTwo,
-    videoLink: 'gVeMD7Y11RE',
-    starCount: 4,
   },
   {
     title:
-    'Social Network, Authentication, login, signup, Mern Stack App',
+    ( <a target="_blank" href='https://infinite-ridge-58847.herokuapp.com/login' rel="noopener noreferrer">
+        Social Network
+             </a> ) , 
     image: fevCardImageThree,
-    videoLink: 'f0ekt0yJjZ0',
-    starCount: 5,
   },
+];
+const favoriteCourseData2 = [
+ 
+  {
+    title:  ( <a target="_blank" href='https://eriancoet.github.io/RianC/' rel="noopener noreferrer">
+    Digital Markteting - My Portfolio
+         </a> ),
+    image: fevCardImageFour,
+  },
+  {
+    title:  ( <a target="_blank" href='https://eriancoet.github.io/RianC/' rel="noopener noreferrer">
+    Graphic Design and Video Production
+         </a> ), 
+    image: fevCardImageFive ,
+  },
+  {
+    title:( <a target="_blank" href='https://github.com/eriancoet' rel="noopener noreferrer">
+    My Github Account
+         </a> ) ,
+    image: fevCardImageSix,
+  },
+  
 ];
 
 const FavoriteCourse = () => {
@@ -62,29 +89,46 @@ const FavoriteCourse = () => {
     },
   };
   return (
-    <Box as="section" sx={styles.fevCourse}>
+    <Box as="section" id="projects" sx={styles.fevCourse}>
       <Container sx={styles.fevCourse.container}>
     
         <BlockTitle
           sx={styles.fevCourse.blockTitle}
-          tagline="Fullstack Developer"
-          heading="Mern Stack Apps, RestAPI, ReactJS"
+          tagline="Portfolio"
+          heading="Web Development and Digital Design"
         />
       
         <Swiper {...FavoriteCarousel} sx={styles.carousel}>
-          {favoriteCourseData.map((course, index) => (
+          {favoriteCourseData1.map((course, index) => (
             <SwiperSlide key={index}>
              
               <FavoriteCard
-                starCount={course.starCount}
+               
                 title={course.title}
                 image={course.image}
-                reviewCount={course.reviewCount}
-                watchCount={course.watchCount}
-                videoLink={course.videoLink}
+              
+              
+              />              
+            </SwiperSlide>
+            
+          ))}
+        </Swiper>
+
+        <Swiper {...FavoriteCarousel} sx={styles.carousel}>
+          {favoriteCourseData2.map((course, index) => (
+            <SwiperSlide key={index}>
+             
+              <FavoriteCard
+               
+                title={course.title}
+                image={course.image}
+             
+             
               />
               
+              
             </SwiperSlide>
+            
           ))}
         </Swiper>
       </Container>

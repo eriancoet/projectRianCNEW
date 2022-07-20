@@ -23,7 +23,7 @@ export default function IndexPage() {
         <VideoProvider>
           <Layout>
             <SEO
-              description="My Portfolio for Fullstack Web Development - Rian Coetzee "
+              description="Full-stack Web Development - Rian Coetzee "
               title="Fullstack Web Developer Portfolio - Rian C."
             />
             <Banner />

@@ -23,17 +23,7 @@ const PopularCard = (props) => {
         <Box sx={styles.popularCard.top}>
           <Box sx={styles.popularCard.content}>
             <Box sx={styles.popularCard.meta}>
-              <Box
-                sx={styles.popularCard.stars}
-                className={`starCount-${props.starCount}`}
-              >
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <Text as="span">{props.reviewCount}</Text>
-              </Box>
+           
               <Box sx={styles.popularCard.watch}>
                 <Image src={eyeIcon} alt="" /> {props.watchCount}
               </Box>

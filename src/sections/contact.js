@@ -13,17 +13,17 @@ const accordionData = [
 
         <p>0799533275</p>
 
-       <p>75 Nelson Str, Sabie, Mpumalanga, South Africa</p> 
+       <p>Sabie, Mpumalanga, South Africa</p> 
       </div>
     ),
   },
   {
     isExpanded: true,
-    title: 'Other Websites',
+    title: 'Other Links',
     contents: (
       <div>
-        <p>   <a target="_blank" href='https://eriancoet.github.io/RianCoetzee_Portfolio/' rel="noopener noreferrer">
-       Rian's Portfolio 
+        <p>   <a target="_blank" href='https://eriancoet.github.io/RianC/' rel="noopener noreferrer">
+       Portfolio 
              </a> 
              
             </p>

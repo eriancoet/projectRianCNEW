@@ -20,37 +20,36 @@ import BannerTextLine from 'assets/banner-text-line.png';
 import BannerPattern from 'assets/banner-pattern.png';
 import BannerImage from 'assets/banner-image-1.png';
 import PartnerImage from 'assets/brands.svg';
+import { motion } from "framer-motion"
 
 const Banner = () => {
   return (
+
+ 
     <Box as="section" id="banner" sx={styles.banner}>
       <Container sx={styles.banner.container}>
         <Flex sx={styles.banner.row}>
           <Box sx={styles.banner.col}>
             <Box sx={styles.banner.content}>
-              <Box sx={styles.banner.stars}>
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-               5 star Fullstack Web Developer
-              </Box>
+           
+           
               <Heading as="h3">
                 Fullstack Developer <br />
                  Rian Coetzee
               </Heading>
+             
               <Text as="p">
-              I am Rian C. A Fullstack Web Developer who are passionate about coding, hacking and programming.
-               Languages includes HTML, CSS, Javascript, ReactJS, Node, express, mongoDB. 
-               I'm hard working, creative, aesthetically minded and passionate about web development. 
-               I enjoy learning new skills and am a problem solver. 
-               My main concentration is in Mern Stack applications, websites and application development. 
-               I also have a great interest in swift(Xcode). I started my career in Media, as a Video Editor. 
-               Doing Video production, music and sound engineering brought me much self discipline, but
-               web development is the way forward.
+              Rian C. is a digital artist, musician, and Fullstack Web Developer living in South Africa.
+              His career in technology started as a video editor and graphic designer. Rian creates video productions, 
+              and as an original artist Rian C created many music tracks.
+              Recently, Rian is creating Web projects and App Development using HTML5, Css3, JavaScript, Swift, ReactJS, Xcode and MongoDB.
+              Rian C sees life differently and thinks in journeys of thought which is in tune with a stairway to heaven, 
+              Rian challenges the business world with a noble cause and a fight against global warming. 
+              The Gospel Codex of UX/UI design and Fullstack Development is the path of digital art, it encompasses both vision
+              and sound, interactive and gaming-like structures open the window to the new world of Artificial Intelligence.
+
               </Text>
-         
+       
               <Box sx={styles.banner.partner}>
                
               </Box>
@@ -60,7 +59,7 @@ const Banner = () => {
             <Box sx={styles.banner.imageBox}>
               <Box sx={styles.banner.imageInner}>
                 <Image src={BannerImage} alt="banner image" />
-                <VideoBtn path="gVeMD7Y11RE" />
+                <VideoBtn path="APdyeZ7yp2M" />
               </Box>
             </Box>
           </Box>

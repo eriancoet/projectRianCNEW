@@ -8,7 +8,7 @@ const popularCourseData = [
     title:
       'Christ Vision Network',
     videoLink: 'IT76CAd-OAQ',
-    starCount: 5,
+   
     expanded: true,
     list: [
       {
@@ -27,7 +27,7 @@ const popularCourseData = [
   {
     title: 'Fullstack Web Application - ReactJS Game',
     videoLink: 'gVeMD7Y11RE',
-    starCount: 4,
+
     expanded: true,
     list: [
       {
@@ -43,7 +43,7 @@ const popularCourseData = [
   {
     title: 'Itunes Search Api',
     videoLink: 'gVeMD7Y11RE',
-    starCount: 5,
+ 
     expanded: false,
     list: [
       {
@@ -60,24 +60,30 @@ const popularCourseData = [
     ],
   },
   {
-    title: 'Rian C. - Github Account',
-    videoLink: 'gVeMD7Y11R',
-    starCount: 5,
+    title: 'More links',
+    videoLink: 'ERcAk-5GVCk',
+    
     expanded: false,
     list: [
       {
         content:  ( <a target="_blank" href='https://github.com/eriancoet' rel="noopener noreferrer">
-        Click to open Github
+        My Github Account
              </a> ) ,
       },
       {
-        content: 'My Github Account - Rian C.',
+        content:  ( <a target="_blank" href='https://eriancoet.github.io/RianCoetzee_Portfolio/' rel="noopener noreferrer">
+        My Portfolio (another site)
+             </a> ),
       },
       {
-        content: 'The Repositories will become more over time...',
+        content:  ( <a target="_blank" href='https://still-river-2752.bss.design/' rel="noopener noreferrer">
+        The African Elephant Restaurant
+             </a> ),
       },
       {
-        content: 'Fullstack Web Developer',
+        content: ( <a target="_blank" href='https://www.linkedin.com/in/rian-coetzee-865337218/' rel="noopener noreferrer">
+        My LinkedIn Profile
+             </a> ),
       },
     ],
   },
@@ -85,12 +91,12 @@ const popularCourseData = [
 
 const PopularCourse = () => {
   return (
-    <Box as="section" id="projects" sx={styles.popularCourse}>
+    <Box as="section" id="video" sx={styles.popularCourse}>
       <Container>
         <BlockTitle
           sx={styles.popularCourse.blockTitle}
           tagline="Video and links to projects"
-          heading="Rian's Projects"
+          heading="Videos"
         />
         {popularCourseData.map((course, index) => (
           <Box sx={styles.popularCourse.col} key={index}>
@@ -98,7 +104,6 @@ const PopularCourse = () => {
               key={index}
               listData={course.list}
               expanded={course.expanded}
-              starCount={course.starCount}
               title={course.title}
               reviewCount={course.reviewCount}
               watchCount={course.watchCount}

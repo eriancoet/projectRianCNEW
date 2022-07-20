@@ -20,7 +20,7 @@ const CtaThree = () => {
                 />
                 <Text as="p">
                   {
-                    'I am Rian C. \n A Fullstack Web Developer, I am \n  passionate about coding, hacking and programming. Languages: \n HTML, CSS, Javascript, ReactJS, Node, express, mongoDB.'
+                    'Software engineering and \n Web Developing,  \n  passionate about coding, hacking and programming. Languages: \n HTML, CSS, Javascript, ReactJS, Node, express, mongoDB.'
                   }
                 </Text>
                 <Link
