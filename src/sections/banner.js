@@ -40,13 +40,9 @@ const Banner = () => {
              
               <Text as="p">
               Rian C. is a digital artist, musician, and Fullstack Web Developer living in South Africa.
-              His career in technology started as a video editor and graphic designer. Rian creates video productions, 
-              and as an original artist Rian C created many music tracks.
-              Recently, Rian is creating Web projects and App Development using HTML5, Css3, JavaScript, Swift, ReactJS, Xcode and MongoDB.
-              Rian C sees life differently and thinks in journeys of thought which is in tune with a stairway to heaven, 
-              Rian challenges the business world with a noble cause and a fight against global warming. 
-              The Gospel Codex of UX/UI design and Fullstack Development is the path of digital art, it encompasses both vision
-              and sound, interactive and gaming-like structures open the window to the new world of Artificial Intelligence.
+              His career in technology started as a video editor and graphic designer working in Birmingham, Uk and other studios.
+              Recently, Rian is doing Web Development and Application Development using HTML5, Css3, JavaScript, Swift, ReactJS, Xcode and MongoDB.
+              Rian uses interactive design to express his creative abilities.
 
               </Text>
        
