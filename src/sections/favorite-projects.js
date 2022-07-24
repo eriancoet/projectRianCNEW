@@ -14,8 +14,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const favoriteCourseData1 = [
   {
-    title:  ( <a target="_blank" href='https://protected-badlands-68828.herokuapp.com/' rel="noopener noreferrer">
-    ReactJS - Memory Game
+    title:  ( <a target="_blank" href='https://eriancoet.github.io/indexLog/' rel="noopener noreferrer">
+   JavaScript Games and Apps
          </a> ),
     image: fevCardImageOne,
    
@@ -28,8 +28,8 @@ const favoriteCourseData1 = [
   },
   {
     title:
-    ( <a target="_blank" href='https://infinite-ridge-58847.herokuapp.com/login' rel="noopener noreferrer">
-        Social Network
+    ( <a target="_blank" href='https://eriancoet.github.io/Ecommerce/' rel="noopener noreferrer">
+        Ecommerce WebSite 
              </a> ) , 
     image: fevCardImageThree,
   },
@@ -43,7 +43,7 @@ const favoriteCourseData2 = [
     image: fevCardImageFour,
   },
   {
-    title:  ( <a target="_blank" href='https://eriancoet.github.io/RianC/' rel="noopener noreferrer">
+    title:  ( <a target="_blank" href='https://eriancoet.github.io/indexLog/websites.html' rel="noopener noreferrer">
     Graphic Design and Video Production
          </a> ), 
     image: fevCardImageFive ,
