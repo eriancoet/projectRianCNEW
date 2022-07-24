@@ -55,7 +55,7 @@ const Banner = () => {
             <Box sx={styles.banner.imageBox}>
               <Box sx={styles.banner.imageInner}>
                 <Image src={BannerImage} alt="banner image" />
-                <VideoBtn path="APdyeZ7yp2M" />
+                <VideoBtn path="m2vkh2GJixQ" />
               </Box>
             </Box>
           </Box>
